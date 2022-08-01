@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fresh Coder</title>
+    <!--===== CSS Links =====-->
+    <link rel="stylesheet" href="styles/bootstrap5.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">Fresh Coder</a>
+            </div>
+
+            <div class="nav_menu">
+                <div class="nav_overlay"></div>
+                <ul>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="login.html" class="nav_login">Log In</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" onclick="navToggle(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!--===== LOGIN =====-->
+    <section class="container login section">
+        <h2>Login</h2>
+        <div class="form_wrapper">
+            <form>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your email address">
+                </div>
+                <div class="form-group my-4">
+                    <input type="password" id="password" placeholder="Your password">
+                </div>
+                <div class="form-group">
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="section">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_text">
+                    <h3>Fresh Coder</h3>
+                    <p>Social media validation business model canvas graphical user interface launch party creative
+                        facebook
+                        iPad twitter.</p>
+                </div>
+
+                <table class="footer_links">
+                    <tr>
+                        <th>Landings</th>
+                        <th>Company</th>
+                        <th>Resources</th>
+                    </tr>
+
+                    <tr>
+                        <td>Home</td>
+                        <td>Home</td>
+                        <td>Blog</td>
+                    </tr>
+                    <tr>
+                        <td>Products</td>
+                        <td>Careers <span>Hiring!</span></td>
+                        <td>Products</td>
+                    </tr>
+                    <tr>
+                        <td>Services</td>
+                        <td>Services</td>
+                        <td>Services</td>
+                    </tr>
+                </table>
+            </div>
+            <p><small>All rights reserved.</small></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
